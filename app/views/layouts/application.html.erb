@@ -22,8 +22,11 @@
       <% end %>
     </div>
     <div class="collapse navbar-collapse" id="main-nav-collapse">
-      <ul class="nav navbar-nav navbar-right"
-        <li><%= link_to "About", about_path, class: 'navbar-brand' %></li>
+      <ul class="nav navbar-nav navbar-right">
+        <li><%= link_to "About", about_path %></li>
+        <li><%= link_to "Contact Us", new_contact_path %></li>
+
+        </ul>
         <!--^^above line should read: "...link_to "About", about_path%>" but my "about" in nav wasn't formated properly somehow....
     </div><!-- /.navbar-collapse -->
   </div>
